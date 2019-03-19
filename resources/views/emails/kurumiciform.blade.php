@@ -13,7 +13,7 @@
     Telefon: {{$gonder['phone']}}<br/>
     Nereden Mezun: {{$gonder['mezun']}}<br/>
     Fikir Adı: {{$gonder['fkrad']}}<br/>
-    Fikir Özeti: {{$gonder['fkrozet']}}<br/>
+    Fikir Özeti: {{$gonder['fkrozet']}}
 
     {{-- Subcopy --}}
     @isset($subcopy)

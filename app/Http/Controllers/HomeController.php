@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use App\Ayar;
 use App\Hizmet;
 use App\Http\Requests\KurumdisiformRequest;
+use App\Http\Requests\KurumiciformRequest;
 use App\Kategori;
 use App\Referans;
 use App\Sayfa;
@@ -182,35 +183,92 @@ class HomeController extends Controller
 
 
             'groupName' => request('groupName'),
-            'groupLabel' => request('groupName'),
-            'groupAdress' => request('groupName'),
-            'groupName' => request('groupName'),
-            'groupName' => request('groupName'),
-            'groupName' => request('groupName'),
-            'groupName' => request('groupName'),
-            'groupName' => request('groupName'),
-            'groupName' => request('groupName'),
-            'groupName' => request('groupName'),
-            'groupName' => request('groupName'),
-            'groupName' => request('groupName'),
-            'groupName' => request('groupName'),
-            'groupName' => request('groupName'),
-            'groupName' => request('groupName'),
-            'groupName' => request('groupName'),
-            'groupName' => request('groupName'),
-            'groupName' => request('groupName'),
-            'groupName' => request('groupName'),
-            'groupName' => request('groupName'),
-            'groupName' => request('groupName'),
-            'groupName' => request('groupName'),
-            'groupName' => request('groupName'),
-            'groupName' => request('groupName'),
-            'groupName' => request('groupName'),
-            'groupName' => request('groupName'),
-            'groupName' => request('groupName'),
-            'groupName' => request('groupName'),
+            'groupLabel' => request('groupLabel'),
+            'groupAdress' => request('groupAdress'),
+            'groupWebsite' => request('groupWebsite'),
+            'groupCountry' => request('groupCountry'),
+            'foundedYear' => request('foundedYear'),
+            'foundationType' => request('foundationType'),
+            'groupTaxBranch' => request('groupTaxBranch'),
+            'groupTaxNo' => request('groupTaxNo'),
+            'groupSicilNo' => request('groupSicilNo'),
+            'groupSGKNo' => request('groupSGKNo'),
+            'paidCapital' => request('paidCapital'),
+            'biggestShareName' => request('biggestShareName'),
+            'biggestSharePerc' => request('biggestSharePerc'),
+            'foreignPartner' => request('foreignPartner'),
+            'lastEndorsement' => request('lastEndorsement'),
+            'nextEndorsement' => request('nextEndorsement'),
+            'lastInvoice' => request('lastInvoice'),
+            'lastYearRevenue' => request('lastYearRevenue'),
+            'needInvestment' => request('needInvestment'),
+            'biggestForeignSharePerc' => request('biggestForeignSharePerc'),
+
+
+            'groupContactName' => request('groupContactName'),
+            'groupContactLastName' => request('groupContactLastName'),
+            'groupContactPhone' => request('groupContactPhone'),
+            'groupContactEmail' => request('groupContactEmail'),
+            'groupOtherCount' => request('groupOtherCount'),
+
+
+            'competence1Count' => request('competence1Count'),
+            'competence2Count' => request('competence2Count'),
+            'competence3Count' => request('competence3Count'),
+            'competence4Count' => request('competence4Count'),
+            'competence5Count' => request('competence5Count'),
+            'competence6Count' => request('competence6Count'),
+            'competence7Count' => request('competence7Count'),
+            'competence8Count' => request('competence8Count'),
+            'competence9Count' => request('competence9Count'),
+            'competence10Count' => request('competence10Count'),
+
+
+            'productCount' => request('productCount'),
+            'productSummary' => request('productSummary'),
+
+
+            'projectTech1' => request('projectTech1'),
+            'projectTech2' => request('projectTech2'),
+            'projectTech3' => request('projectTech3'),
+            'projectTech4' => request('projectTech4'),
+            'projectTech5' => request('projectTech5'),
+            'projectTech6' => request('projectTech6'),
+            'projectTech7' => request('projectTech7'),
+            'projectTech8' => request('projectTech8'),
+            'projectTech9' => request('projectTech9'),
+            'projectTech10' => request('projectTech10'),
+            'projectTech11' => request('projectTech11'),
+            'projectTech12' => request('projectTech12'),
+            'projectTech13' => request('projectTech13'),
+            'projectTech14' => request('projectTech14'),
+            'projectTech15' => request('projectTech15'),
+            'projectTech16' => request('projectTech16'),
+            'projectTech17' => request('projectTech17'),
+            'projectTech18' => request('projectTech18'),
+            'projectTech19' => request('projectTech19'),
+            'projectTech20' => request('projectTech20'),
+            'projectTech21' => request('projectTech21'),
+            'projectTech22' => request('projectTech22'),
+            'projectTech23' => request('projectTech23'),
+            'projectTech24' => request('projectTech24'),
+            'projectTech25' => request('projectTech25'),
+
+
+            'sector' => request('sector'),
+            'targetGroupSummary' => request('targetGroupSummary'),
+            'targetSector' => request('targetSector'),
+            'competitorWebsites' => request('competitorWebsites'),
+            'competitorDifference' => request('competitorDifference'),
+            'businessModel2' => request('businessModel2'),
+
+
+            'haveInvestment' => request('haveInvestment'),
+            'havePatent' => request('havePatent'),
+            'wantAddress' => request('wantAddress'),
+            'lawApply' => request('lawApply'),
         );
-        Mail::to($siteemail)->send(new \App\Mail\talepformu($bilgiler));
+        Mail::to($siteemail)->send(new \App\Mail\kurumdisiform($bilgiler));
         alert()
             ->success('Gönderildi','En kısa zamanda tarafınıza ulaşılacaktır...')
             ->autoClose(2000);
@@ -218,9 +276,33 @@ class HomeController extends Controller
 
 
     }
-    public function kurumiciformgonder(){
+    public function kurumiciformgonder(KurumiciformRequest $request){
 
 
+        $ayarlar = Ayar::find(1);
+        $siteadi = $ayarlar->site_adi;
+        $siteemail = $ayarlar->email;
+
+        $bilgiler = array(
+
+            'siteadi' => $siteadi,
+            'siteemail' => $siteemail,
+
+            'name' => request('name'),
+            'email' => request('email'),
+            'sicilno' => request('sicilno'),
+            'phone' => request('phone'),
+            'mezun' => request('mezun'),
+            'fkrad' => request('fkrad'),
+            'fkrozet' => request('fkrozet'),
+
+
+        );
+        Mail::to($siteemail)->send(new \App\Mail\kurumiciform($bilgiler));
+        alert()
+            ->success('Gönderildi','En kısa zamanda tarafınıza ulaşılacaktır...')
+            ->autoClose(2000);
+        return back();
 
     }
 

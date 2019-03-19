@@ -24,7 +24,13 @@ class KurumiciformRequest extends FormRequest
     public function rules()
     {
         return [
-            //
+            'name'=>'name',
+            'sicilno'=>'sicilno',
+            'email'=>'email',
+            'phone'=>'phone',
+            'mezun'=>'mezun',
+            'fkrad'=>'fkrad',
+            'fkrozet'=>'fkrozet',
         ];
     }
 }

@@ -7,7 +7,7 @@ use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
-class kurumiciform extends Mailable
+class KurumDisiFormGonder extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -17,12 +17,11 @@ class kurumiciform extends Mailable
      * @return void
      */
     public $gonder;
-
     public function __construct($bilgiler)
     {
         $this->gonder = $bilgiler;
-
     }
+
     /**
      * Build the message.
      *
@@ -30,7 +29,6 @@ class kurumiciform extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.kurumiciform')->subject('Kurum İçi Başvuru Formu');
+        return $this->markdown('email.kurumdisiformgonder')->subject('Kurum Dışı Başvuru Formu');
     }
-
 }

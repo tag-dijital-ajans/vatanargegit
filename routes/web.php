@@ -70,9 +70,9 @@ Route::get('kurumdisiform','HomeController@kurumdisiform')->name('kurumdisi.form
 Route::get('kurumiciform', 'HomeController@kurumiciform')->name('kurumici.form');
 
     Route::get('kurumdisiform','HomeController@kurumdisiform')->name('kurumdisi.form');
-    Route::post('kurumdisiform','HomeController@kurumdisiformgonder')->name('kurumdisiform.gonder');
+    Route::post('kurumdisiformgonder','HomeController@kurumdisiformgonder')->name('kurumdisiform.gonder');
     Route::get('kurumiciform', 'HomeController@kurumiciform')->name('kurumici.form');
-    Route::post('kurumiciform','HomeController@kurumiciformgonder')->name('kurumiciform.gonder');
+    Route::post('kurumiciformgonder','HomeController@kurumiciformgonder')->name('kurumiciform.gonder');
 
 //Hizmetler
 //Route::get('/hizmetler','HomeController@hizmetler')->name('hizmetleri.goster');

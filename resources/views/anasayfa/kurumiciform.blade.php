@@ -14,6 +14,7 @@
                     </h3>
 
                     <form id="contact-form" class="validate-form" method="post" action="{{route('kurumiciform.gonder')}}" name="contact">
+                        {{csrf_field()}}
                         <div class="m-b-15 validate-input" data-validate = "Name is required">
                             <input class="size-a-3 t1-m-2 plh-6 cl-6 p-rl-20 bo-1-rad-4 bcl-12 focus-in1" type="text" name="name" placeholder="Adınız Soyadınız">
                         </div>

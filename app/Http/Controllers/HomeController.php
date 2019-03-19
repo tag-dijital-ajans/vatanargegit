@@ -268,12 +268,19 @@ class HomeController extends Controller
             'wantAddress' => request('wantAddress'),
             'lawApply' => request('lawApply'),
         );
-        Mail::to($siteemail)->send(new \App\Mail\kurumdisiform($bilgiler));
-        alert()
-            ->success('Gönderildi','En kısa zamanda tarafınıza ulaşılacaktır...')
-            ->autoClose(2000);
-        return back();
+        $mail = Mail::to($siteemail)->send(new \App\Mail\KurumDisiFormGonder($bilgiler));
+        if($mail) {
+            alert()
+                ->success('Gönderildi', 'En kısa zamanda tarafınıza ulaşılacaktır...')
+                ->autoClose(2000);
+            return back();
+        }else{
+            alert()
+                ->error('Hata', 'Email gonderilemedi...')
+                ->autoClose(2000);
+            return back();
 
+        }
 
     }
     public function kurumiciformgonder(KurumiciformRequest $request){
@@ -298,11 +305,19 @@ class HomeController extends Controller
 
 
         );
-        Mail::to($siteemail)->send(new \App\Mail\kurumiciform($bilgiler));
-        alert()
-            ->success('Gönderildi','En kısa zamanda tarafınıza ulaşılacaktır...')
-            ->autoClose(2000);
-        return back();
+        $mail = Mail::to($siteemail)->send(new \App\Mail\KurumIciFormGonder($bilgiler));
+        if($mail) {
+            alert()
+                ->success('Gönderildi', 'En kısa zamanda tarafınıza ulaşılacaktır...')
+                ->autoClose(2000);
+            return back();
+        }else{
+            alert()
+                ->error('Hata', 'Email gonderilemedi...')
+                ->autoClose(2000);
+            return back();
+
+        }
 
     }
 

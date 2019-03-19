@@ -3,7 +3,8 @@
 @section('icerik')
 
 
-    <form id="startupForm" action="{{route('kurumdisi.formgonder')}}" method="post" class="submission-form" name="contact">
+    <form id="startupForm" action="{{route('kurumdisiform.gonder')}}" method="post" class="submission-form" name="contact">
+        {{csrf_field()}}
 
        {{-- <h2>GİRİŞİMCİ FİRMA<br />BAŞVURU FORMU</h2>
 
@@ -16,7 +17,7 @@
 
                 <div class="row">
                     <div class="input-field col s6">
-                        <input type="text" id="groupName" name="groupName" class="validate req-min" minlength="2" />
+                        <input type="text" id="groupName" name="groupName" class="validate req-min" minlength="2" required/>
                         <label for="groupName" class="avenirdemibold">Şirketin adı</label>
                     </div>
                     <div class="input-field col s6">
@@ -1338,7 +1339,7 @@
             </div>--}}
 
         </section>
-        <button  id="yer" class="size-a-15 flex-c-c bg-11 t1-s-2 text-uppercase cl-0 hov-btn1 trans-02 p-rl-15">
+        <button type="submit"  id="yer" class="size-a-15 flex-c-c bg-11 t1-s-2 text-uppercase cl-0 hov-btn1 trans-02 p-rl-15">
          Başvur
         </button>
 

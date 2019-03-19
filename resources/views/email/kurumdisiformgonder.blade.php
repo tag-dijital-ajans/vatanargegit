@@ -10,7 +10,7 @@
 
     Şirket Adı : {{$gonder['groupName']}}<br/>
     Şirket Unvanı: {{$gonder['groupLabel']}}<br/>
-    Adresi: {{$gonder['groupAddress']}}<br/>
+    Adresi: {{$gonder['groupAdress']}}<br/>
     Web Sitesi: {{$gonder['groupWebsite']}}<br/>
     Ülke: {{$gonder['groupCountry']}}<br/>
     Kuruluş Yılı: {{$gonder['foundedYear']}}<br/>

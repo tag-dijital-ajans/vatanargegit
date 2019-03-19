@@ -13,7 +13,7 @@ class KurumiciformRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -24,13 +24,13 @@ class KurumiciformRequest extends FormRequest
     public function rules()
     {
         return [
-            'name'=>'name',
-            'sicilno'=>'sicilno',
-            'email'=>'email',
-            'phone'=>'phone',
-            'mezun'=>'mezun',
-            'fkrad'=>'fkrad',
-            'fkrozet'=>'fkrozet',
+            'name'=>'required',
+            'sicilno'=>'required',
+            'email'=>'required',
+            'phone'=>'required',
+            'mezun'=>'required',
+            'fkrad'=>'required',
+            'fkrozet'=>'required',
 
         ];
     }

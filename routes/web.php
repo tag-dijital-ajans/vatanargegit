@@ -58,6 +58,7 @@ Route::get('/','HomeController@index')->name('anasayfa');
 Route::get('sayfa/{id}/{slug}', 'HomeController@sayfa')->name('sayfa.goster');
 Route::get('/iletisim', 'HomeController@iletisim')->name('iletisim.formu');
 Route::post('iletisimformu','HomeController@iletisimformgonder')->name('iletisimformu.gondeer');
+
 //anasayfa iletşim formu için
 Route::get('anasayfailetisim','HomeController@anasayfailetisim')->name('anasayfailetisim.formu');
 Route::post('anasayfaform','HomeController@anasayfaformgonder')->name('anasayfaform.gonder');
@@ -65,9 +66,11 @@ Route::post('anasayfaform','HomeController@anasayfaformgonder')->name('anasayfaf
 Route::get('ekip','HomeController@ekip')->name('ekip.sayfasi');
 
 //Basvuru Formları
+Route::get('kurumdisiform','HomeController@kurumdisiform')->name('kurumdisi.form');
+Route::get('kurumiciform', 'HomeController@kurumiciform')->name('kurumici.form');
 
-    Route::get('kurumdisiform','HomeController@kurumdisiform')->name('kurumdisi.form');
-    Route::get('kurumiciform', 'HomeController@kurumiciform')->name('kurumici.form');
+Route::get('kurumdisiformgonder','HomeController@kurumdisiformgonder')->name('kurumdisi.formgonder');
+Route::get('kurumiciformgonder', 'HomeController@kurumiciformgonder')->name('kurumici.formgonder');
 
 
 //Hizmetler

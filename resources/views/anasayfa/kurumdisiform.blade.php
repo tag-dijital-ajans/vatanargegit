@@ -3,7 +3,7 @@
 @section('icerik')
 
 
-    <form id="startupForm" action="{{route('iletisimformu.gondeer')}}" method="post" class="submission-form" name="contact">
+    <form id="startupForm" action="{{route('kurumdisi.formgonder')}}" method="post" class="submission-form" name="contact">
 
        {{-- <h2>GİRİŞİMCİ FİRMA<br />BAŞVURU FORMU</h2>
 

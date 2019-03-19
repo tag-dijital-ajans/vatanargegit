@@ -103,7 +103,7 @@
                         <div class="control-group">
                             <label class="control-label"> Telefon</label> {{--Veritabanından Telefon int(11) -> varchar(22) olarak değiştir--}}
                             <div class="controls">
-                                <input type="number" name="telefon" value="{{$ayarlar->telefon}}" class="span11" />
+                                <input type="text" name="telefon" value="{{$ayarlar->telefon}}" class="span11" />
                                 <span class="help-block">Örn(02566125960)</span>
                              </div>
                         </div>

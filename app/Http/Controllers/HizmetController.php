@@ -111,7 +111,7 @@ class HizmetController extends Controller
 
         $this->validate(request(), array(
             'hizmet_basligi' => 'required',
-            'hizmet_icerik' => 'required',
+
 
         ));
         $hizmet = Hizmet::find($id);

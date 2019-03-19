@@ -24,8 +24,8 @@ class BakimModu
         }else {
 
             //eğer bakım mod evet ise
-
-            return redirect('/bakim');
+            return $next($request);
+            //return redirect('/bakim');
 
             //degil ise
             //return $next($request);

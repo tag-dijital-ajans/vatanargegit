@@ -30,7 +30,7 @@ class kurumiciform extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.kurumdiciform')->subject('Kurum İçi Başvuru Formu');
+        return $this->markdown('emails.kurumiciform')->subject('Kurum İçi Başvuru Formu');
     }
 
 }

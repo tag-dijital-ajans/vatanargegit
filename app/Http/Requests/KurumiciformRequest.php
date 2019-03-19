@@ -31,6 +31,7 @@ class KurumiciformRequest extends FormRequest
             'mezun'=>'mezun',
             'fkrad'=>'fkrad',
             'fkrozet'=>'fkrozet',
+
         ];
     }
 }

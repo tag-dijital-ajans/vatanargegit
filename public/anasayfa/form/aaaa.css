@@ -1,0 +1,54 @@
+/* shape animations disabled */
+.shape-1, .shape-2, .shape-3 { display:none; }
+
+/* section1 box animations */
+.section1 .p2.hasAnim {
+    -webkit-animation: sec1p2anim 2.5s infinite; /* Safari 4+ */
+    -moz-animation:    sec1p2anim 2.5s infinite; /* Fx 5+ */
+    -o-animation:      sec1p2anim 2.5s infinite; /* Opera 12+ */
+    animation:         sec1p2anim 2.5s infinite; /* IE 10+, Fx 29+ */
+}
+
+.section1 .p3.hasAnim {
+    -webkit-animation: sec1p3anim 3s infinite; /* Safari 4+ */
+    -moz-animation:    sec1p3anim 3s infinite; /* Fx 5+ */
+    -o-animation:      sec1p3anim 3s infinite; /* Opera 12+ */
+    animation:         sec1p3anim 3s infinite; /* IE 10+, Fx 29+ */
+}
+
+.section1 .p2.hasAnim:hover, .section1 .p3.hasAnim:hover, .section1 .p2.hasAnim:hover .avatar, .section1 .p3.hasAnim:hover .avatar
+{
+    -webkit-animation-play-state: paused !important;
+    -moz-animation-play-state: paused !important;
+    -o-animation-play-state: paused !important;
+    animation-play-state: paused !important;
+    opacity: 1;
+}
+
+@-webkit-keyframes sec1p2anim {
+    50%   { top:248px; right:21.5%; opacity:0.9; }
+}
+@-moz-keyframes sec1p2anim {
+    50%   { top:248px; right:21.5%; opacity:0.9; }
+}
+@-o-keyframes sec1p2anim {
+    50%   { top:248px; right:21.5%; opacity:0.9; }
+}
+@keyframes sec1p2anim {
+    50%   { top:248px; right:21.5%; opacity:0.9; }
+}
+
+@-webkit-keyframes sec1p3anim {
+    50%   { top:428px; right:14.5%; opacity:0.9; }
+}
+@-moz-keyframes sec1p3anim {
+    50%   { top:428px; right:14.5%; opacity:0.9; }
+}
+@-o-keyframes sec1p3anim {
+    50%   { top:428px; right:14.5%; opacity:0.9; }
+}
+@keyframes sec1p3anim {
+    50%   { top:428px; right:14.5%; opacity:0.9; }
+}
+
+/* lightbox */

@@ -36,14 +36,13 @@ class AyarController extends Controller
         $ayar->site_adi = request('site_adi');
         $ayar->firma_adres = request('firma_adres');
         $ayar->email = request('email');
+        $ayar->email2 = request('email2');
 
 
         $ayar->telefon = request('telefon');
         $ayar->tag_manager_kod = request('tag_manager_kod');
         $ayar->tag_manager_script = request('google_map');
-        $ayar->email_smtp_sunucu = request('email_smtp_sunucu');
-        $ayar->email_kullanici = request('email_kullanici');
-        $ayar->email_sifre = request('email_sifre'); //Veritabanında şifre-> email_sifre  olarak değiştir.
+
         $ayar->footer_yazisi = request('footer_yazisi');
         $ayar->facebook = request('facebook');
         $ayar->instagram = request('instagram');

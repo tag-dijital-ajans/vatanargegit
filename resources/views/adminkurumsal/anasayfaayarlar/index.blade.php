@@ -21,7 +21,7 @@
                         <div class="control-group">
                             <label class="control-label"> Anasayfa Metin</label>
                             <div class="controls">
-                                <textarea name="anasayfametin"> {!!$ayarlar->anasayfametin!!}</textarea>
+                                <textarea cols="250" rows="15" name="anasayfametin"> {{$ayarlar->anasayfametin}}</textarea>
                             </div>
                         </div>
                         <div class="control-group">
@@ -53,6 +53,6 @@
 @endsection
 
 @section('js')
- <script src="/adminkurumsal/tinymce/js/tinymce/tinymce.min.js"></script>
-    <script>tinymce.init({ selector:'textarea' });</script>
+ {{--<script src="/adminkurumsal/tinymce/js/tinymce/tinymce.min.js"></script>
+    <script>tinymce.init({ selector:'textarea' });</script>--}}
 @endsection

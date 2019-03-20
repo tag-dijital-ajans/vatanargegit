@@ -1,14 +1,14 @@
 @extends ('anasayfa.template')
 
 @section('icerik')
-<section class="bg-0 p-t-92 p-b-50">
+{{--<section class="bg-0 p-t-92 p-b-50">
 		<div class="container">
             <div class="row justify-content-center">
 
-				{!!$anasayfaayar->anasayfametin!!}
+                <h2>{{$anasayfaayar->anasayfametin}}</h2>
             </div>
 		</div>
-</section>
+</section>--}}
 
 @include('anasayfa.services')
 

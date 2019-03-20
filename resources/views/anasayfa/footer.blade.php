@@ -5,7 +5,7 @@
         <div class="parallax100 kit-overlay1 p-t-35 p-b-10" style="background-image: url(/anasayfa/images/bg-03.jpg);">
             <div class="container">
                 <div class="row justify-content-center justify-content-md-start">
-                    <div class="col-sm-8 col-md-4 col-lg-3 p-b-20">
+                    <div class="col-sm-12 col-md-4 col-lg-6 p-b-20">
                         <div class="size-h-1 flex-s-e p-b-6 m-b-18">
                             <a href="#">
                                 <img class="max-s-full" src="/{{$ayar->footerlogo}}" width="140"height="75" alt="IMG">
@@ -52,7 +52,7 @@
                         </div>
                     </div>
 
-                    <div class="col-sm-8 col-md-4 col-lg-3 p-b-20">
+                    <div class="col-sm-6 col-md-4 col-lg-3 p-b-20">
                         <div class="size-h-1 flex-s-e m-b-18">
                             <h4 class="t1-m-3 text-uppercase cl-0">
                                 İletişim
@@ -78,6 +78,17 @@
                                 <span class="size-w-4">
 									{{$ayar->email}}
 								</span>
+
+
+                            </li>
+                            <li class="flex-wr-s-s t1-s-2 cl-13 p-b-9">
+								<span class="size-w-3">
+									<i class="fa fa-envelope-o" aria-hidden="true"></i>
+								</span>
+
+                                <span class="size-w-4">
+									{{$ayar->email2}}
+								</span>
                             </li>
 
                             <li class="flex-wr-s-s t1-s-2 cl-13 p-b-9">
@@ -87,14 +98,13 @@
 
                                 <span class="size-w-4">
 									{{$ayar->telefon}}
-									<br>
-									05389227347
+
 								</span>
                             </li>
                         </ul>
                     </div>
 
-                    <div class="col-sm-8 col-md-4 col-lg-3 p-b-20">
+                    <div class="col-sm-6 col-md-4 col-lg-3 p-b-20">
                         <div class="size-h-1 flex-s-e m-b-18">
                             <h4 class="t1-m-3 text-uppercase cl-0">
                                Linkler
@@ -105,14 +115,7 @@
 
                             <ul class="w-50">
 
-                                {{--@foreach($menuler as $menu)
-                                <li class="kit-list1 p-b-9">
-                                    <a href="index.html" class="t1-s-2 cl-13 hov-link2 trans-02">
-                                        {{$menu->menu_baslik}}
-                                    </a>
-                                </li>
 
-                               @endforeach--}}
                                 <li class="kit-list1 p-b-9">
                                     <a href="{{route('anasayfa')}}" class="t1-s-2 cl-13 hov-link2 trans-02">
                                        Anasayfa</a>
@@ -141,7 +144,7 @@
                         </div>
                     </div>
 
-                    <div class="col-sm-8 col-md-6 col-lg-3 p-b-20">
+                    {{--<div class="col-sm-6 col-md-6 col-lg-3 p-b-20">
                         <div class="size-h-1 flex-s-e m-b-18">
                             <h4 class="t1-m-3 text-uppercase cl-0">
                                 Son Haberler
@@ -155,7 +158,7 @@
 
                             @endforeach
                         </div>
-                    </div>
+                    </div>--}}
                 </div>
             </div>
         </div>
@@ -167,7 +170,7 @@
             @foreach ($kurumlogolar as $kurum)
             <div class="col-sm-4 col-lg-2 flex-c-c p-b-60">
                 <a href="{{$kurum->link}}" target="_blank">
-                    <img class="trans-02 max-s-full" src="{{$kurum->logo}}" width="200"  alt="{{$kurum->kurumadi}}">
+                    <img class="trans-02 max-s-full" src="/{{$kurum->logo}}" width="200"  alt="{{$kurum->kurumadi}}">
                 </a>
             </div>
 @endforeach
@@ -178,7 +181,7 @@
         <div class="bg-10">
             <div class="container txt-center p-tb-15">
 				<span class="t1-s-2 cl-14">
-					Copyright @ 2019 Designed by Tag Ajans. Tüm Hakları Saklıdır.
+					{{$ayar->footer_yazisi}}
 				</span>
             </div>
         </div>

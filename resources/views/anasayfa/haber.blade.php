@@ -14,7 +14,7 @@
                     Anasayfa
                 </a>
 
-                <a href="{{route('haberler.goster')}}" class="breadcrumb-item">
+                <a href="{{route('duyurular.goster')}}" class="breadcrumb-item">
                     Duyuru ve Etkinlikler
                 </a>
 

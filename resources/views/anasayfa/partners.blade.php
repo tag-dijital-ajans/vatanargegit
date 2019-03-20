@@ -16,7 +16,7 @@
             @foreach ($partners as $partner)
             <div class="col-sm-4 col-lg-2 flex-c-c p-b-60">
                 <a href="{{$partner->link}}" target="_blank">
-                    <img class="hov-img2 trans-02 max-s-full" src="{{$partner->referans_gorseli}}" width="150" height="120" alt="IMG">
+                    <img class="hov-img2 trans-02 max-s-full" src="{{$partner->referans_gorseli}}"   alt="IMG">
                 </a>
             </div>
 @endforeach

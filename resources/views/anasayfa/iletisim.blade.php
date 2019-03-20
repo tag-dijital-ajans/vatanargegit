@@ -82,6 +82,16 @@
                                 <span class="size-w-4">
 									<strong>{{$ayar->email}}</strong>
 								</span>
+
+                            </li>
+                            <li class="flex-wr-s-s t1-s-2 cl-6 p-b-8">
+								<span class="size-w-3 cl-5">
+									<i class="fa fa-envelope-o" aria-hidden="true"></i>
+								</span>
+
+                                <span class="size-w-4">
+									<strong>{{$ayar->email2}}</strong>
+								</span>
                             </li>
 
                             <li class="flex-wr-s-s t1-s-2 cl-6 p-b-8">

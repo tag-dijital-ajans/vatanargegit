@@ -7,7 +7,7 @@
         <div class="span12">
             <div class="widget-box">
                 <div class="widget-title"> <span class="icon"> <i class="icon-align-justify"></i> </span>
-                    <h5> Referans Düzenle : {{$referans->referans_adi}}</h5>
+                    <h5> Proje PAydaş Düzenle : {{$referans->referans_adi}}</h5>
                 </div>
 
 
@@ -19,7 +19,7 @@
 
 
                     <div class="control-group">
-                        <label class="control-label"> Referans Adı</label>
+                        <label class="control-label"> Adı</label>
                         <div class="controls">
                             <input type="text" class="span11" name="referans_adi" value="{{$referans->referans_adi}}"  />
                         </div>
@@ -33,7 +33,7 @@
                     </div>
 
                     <div class="control-group">
-                        <label class="control-label"> Referans Açıklama</label>
+                        <label class="control-label"> Açıklama</label>
                         <div class="controls">
                             <input type="text" class="span11" name="referans_aciklama" value="{{$referans->referans_aciklama}}"  />
                         </div>
@@ -64,7 +64,7 @@
 
                     </div>
                     <div class="form-actions">
-                        <button type="submit" class="btn btn-success">Referans Güncelle</button>
+                        <button type="submit" class="btn btn-success">Güncelle</button>
                     </div>
                     {!! Form::close() !!}
                 </div>

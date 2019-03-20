@@ -6,7 +6,7 @@
     <section class="bg-img1 kit-overlay1" style="background-image: url(/anasayfa/images/bg-07.jpg);">
         <div class="container size-h-3 p-tb-30 flex-col-c-c">
             <h2 class="t1-b-1  cl-0 txt-center m-b-25">
-                Programlar
+                Birimler
             </h2>
 
             <div class="flex-wr-c-c">
@@ -15,7 +15,7 @@
                 </a>
 
                 <span class="breadcrumb-item">
-					Programlar
+					Birimler
 				</span>
             </div>
         </div>
@@ -25,30 +25,27 @@
             <!-- Title section -->
 
             <div class="row justify-content-center">
-                <!--  -->
-                @foreach($hizmetler as $hizmet)
-
+                @foreach($hizmetler as $service)
                     <div class="col-sm-10 col-md-8 col-lg-4 p-b-40">
-                        <div class="bg-12 h-full">
-                            <a href="/hizmet/{{$hizmet->id}}/{{$hizmet->slug}}" class="hov-img0 of-hidden bg-0">
-                                <img src=" {{$hizmet->hizmet_one_cikan_foto}}" alt="IMG" width="100" height="320" >
-
-                            </a>
-
-                            <div class="p-rl-30 p-t-26 p-b-20">
-                                <h4 class="p-b-9">
-                                    <a href="/hizmet/{{$hizmet->id}}/{{$hizmet->slug}}" class="t1-m-1 cl-2 hov-link2 trans-02">
-                                        {{$hizmet->hizmet_basligi}}
-                                    </a>
+                        <!-- Block2 -->
+                        <div class="block2 bg-img2" style="background-image: url('/{{$service->hizmet_one_cikan_foto}}');">
+                            <div class="block2-content trans-04">
+                                <h4 class="block2-title t1-m-1 cl-0 flex-s-c trans-04">
+                                    {{$service->hizmet_basligi}}
                                 </h4>
 
-                                <p class="t1-s-2 cl-13">
-                                    {!! $hizmet->hizmet_icerik !!}
-                                </p>
+                                {{--<p class="t1-s-2 cl-13 p-b-26">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, various versions have evolved over the years.
+                                </p>--}}
+
+                                <a href="/hizmet/{{$service->id}}/{{$service->slug}}" class="d-inline-flex flex-c-c size-a-1 p-rl-15 t1-s-2 text-uppercase cl-6 bg-0 hov-btn3 trans-02">
+                                    Detaylar
+                                </a>
                             </div>
                         </div>
                     </div>
                 @endforeach
+
 
             </div>
         </div>

@@ -5,7 +5,7 @@
     <div style="clear:both;"></div>
     <div class="widget-box">
         <div class="widget-title"> <span class="icon"><i class="icon-th"></i></span>
-            <h5>Referans Yönetimi</h5>
+            <h5>Proje Paydaşları Yönetimi</h5>
         </div>
         <div class="widget-content nopadding">
             <table class="table table-bordered data-table">
@@ -14,7 +14,7 @@
                     <th width="5%">Sıra</th>
                     <th width="10%">Logo</th>
                     <th>Firma Adı</th>
-                    <th>Referans Açıklama</th>
+                    <th>Açıklama</th>
                     <th>Görsel Linki</th>
                     <th width="5%">Düzenle</th>
                     <th width="5%">Sil</th>

@@ -6,7 +6,7 @@
     <section class="bg-img1 kit-overlay1" style="background-image: url(/anasayfa/images/bg-07.jpg);">
         <div class="container size-h-3 p-tb-30 flex-col-c-c">
             <h2 class="t1-b-1 text-uppercase cl-0 txt-center m-b-25">
-                Haberler
+                Duyur ve Etkinlikler
             </h2>
 
             <div class="flex-wr-c-c">
@@ -15,7 +15,7 @@
                 </a>
 
                 <span class="breadcrumb-item">
-					Haberler
+					Duyuru ve Etkinlikler
 				</span>
             </div>
         </div>

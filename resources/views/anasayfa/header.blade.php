@@ -17,12 +17,7 @@
                     <span><a class="t1-s-2 cl-13 hov-link2 trans-02" href="tel:{{$ayar->telefon}}">{{$ayar->telefon}}</a></span>
                 </div>
 
-                {{--<div class="t1-s-1 cl-13 m-r-50">
-							<span class="fs-16 m-r-6">
-								<i class="fa fa-clock-o" aria-hidden="true"></i>
-							</span>
-                    <span>Pzrts-Cmrts 09:00 sbh - 17:00 aksm/Pazar KAPALI</span>
-                </div>--}}
+
             </div>
 
             <div class="text-nowrap">
@@ -96,7 +91,9 @@
 
                     @endforeach
 
-
+                        <li>
+                            <a href="{{route('duyurular.goster')}}">Duyuru ve Etkinlikler</a>
+                        </li>
                     <li>
                         <a href="{{route('iletisim.formu')}}">İletişim</a>
                     </li>

@@ -57,6 +57,12 @@
                                 <input type="email" class="span11" name="email" value="{{$ayarlar->email}}"  />
                             </div>
                         </div>
+                    <div class="control-group">
+                        <label class="control-label"> E-Mail Adresi 2</label>
+                        <div class="controls">
+                            <input type="email" class="span11" name="email2" value="{{$ayarlar->email2}}"  />
+                        </div>
+                    </div>
                         <div class="control-group">
                             <label class="control-label">Ana Logo</label>
                             <div class="controls">

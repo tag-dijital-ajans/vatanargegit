@@ -16,6 +16,7 @@ use App\Ekip;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Validator;
 
 class HomeController extends Controller
 {
@@ -130,7 +131,7 @@ class HomeController extends Controller
         ));
         $ayarlar = Ayar::find(1);
         $siteadi = $ayarlar->site_adi;
-        $siteemail = $ayarlar->email;
+        $siteemail = $ayarlar->email2;
 
         $bilgiler = array(
             'ad' => request('ad'),
@@ -170,8 +171,72 @@ class HomeController extends Controller
         return view('anasayfa.kurumiciform');
     }
 
-    public function kurumdisiformgonder(KurumdisiformRequest $request){
+    public function kurumdisiformgonder(Request $request){
 
+        $validator = Validator::make($request->all(), [
+            'groupName'=>'required',
+            'groupLabel'=>'required',
+            'groupAdress'=>'required',
+            'groupCountry'=>'required',
+            'foundedYear'=>'required',
+            'foundationType'=>'required',
+
+
+            'groupTaxBranch'=>'required',
+            'groupTaxNo'=>'required',
+            'groupSicilNo'=>'required',
+            'groupSGKNo'=>'required',
+            'paidCapital'=>'required',
+            'biggestShareName'=>'required',
+            'biggestSharePerc'=>'required',
+            'foreignPartner'=>'required',
+
+            'lastEndorsement'=>'required',
+            'nextEndorsement'=>'required',
+            'lastInvoice'=>'required',
+            'lastYearRevenue'=>'required',
+            'needInvestment'=>'required',
+            'biggestForeignSharePerc'=>'required',
+
+            'groupContactName'=>'required',
+            'groupContactLastName'=>'required',
+            'groupContactPhone'=>'required',
+            'groupContactEmail'=>'required',
+
+
+
+            'competence1Count'=>'required',
+            'competence2Count'=>'required',
+            'competence3Count'=>'required',
+            'competence4Count'=>'required',
+            'competence5Count'=>'required',
+            'competence6Count'=>'required',
+            'competence7Count'=>'required',
+            'competence8Count'=>'required',
+            'competence9Count'=>'required',
+            'competence10Count'=>'required',
+
+            'productCount'=>'required',
+            'projectTech'=>'required',
+
+            'sector'=>'required',
+            'targetGroupSummary'=>'required',
+            'targetSector'=>'required',
+            'targetAltSector'=>'required',
+
+            'competitorWebsites'=>'required',
+            'competitorDifference'=>'required',
+            'businessModel2'=>'required',
+
+            'haveInvestment'=>'required',
+            'havePatent'=>'required',
+
+
+            ]);
+        if (!$validator->passes()) {
+
+            return back()->withErrors($validator)->withInput();
+        }
         $ayarlar = Ayar::find(1);
         $siteadi = $ayarlar->site_adi;
         $siteemail = $ayarlar->email;
@@ -205,13 +270,6 @@ class HomeController extends Controller
             'biggestForeignSharePerc' => request('biggestForeignSharePerc'),
 
 
-            'groupContactName' => request('groupContactName'),
-            'groupContactLastName' => request('groupContactLastName'),
-            'groupContactPhone' => request('groupContactPhone'),
-            'groupContactEmail' => request('groupContactEmail'),
-            'groupOtherCount' => request('groupOtherCount'),
-
-
             'competence1Count' => request('competence1Count'),
             'competence2Count' => request('competence2Count'),
             'competence3Count' => request('competence3Count'),
@@ -224,36 +282,17 @@ class HomeController extends Controller
             'competence10Count' => request('competence10Count'),
 
 
+            'groupContactName' => request('groupContactName'),
+            'groupContactLastName' => request('groupContactLastName'),
+            'groupContactPhone' => request('groupContactPhone'),
+            'groupContactEmail' => request('groupContactEmail'),
+            'groupOtherCount' => request('groupOtherCount'),
+
+
+            'projectTech'=>request('projectTech'),
+
             'productCount' => request('productCount'),
             'productSummary' => request('productSummary'),
-
-
-            'projectTech1' => request('projectTech1'),
-            'projectTech2' => request('projectTech2'),
-            'projectTech3' => request('projectTech3'),
-            'projectTech4' => request('projectTech4'),
-            'projectTech5' => request('projectTech5'),
-            'projectTech6' => request('projectTech6'),
-            'projectTech7' => request('projectTech7'),
-            'projectTech8' => request('projectTech8'),
-            'projectTech9' => request('projectTech9'),
-            'projectTech10' => request('projectTech10'),
-            'projectTech11' => request('projectTech11'),
-            'projectTech12' => request('projectTech12'),
-            'projectTech13' => request('projectTech13'),
-            'projectTech14' => request('projectTech14'),
-            'projectTech15' => request('projectTech15'),
-            'projectTech16' => request('projectTech16'),
-            'projectTech17' => request('projectTech17'),
-            'projectTech18' => request('projectTech18'),
-            'projectTech19' => request('projectTech19'),
-            'projectTech20' => request('projectTech20'),
-            'projectTech21' => request('projectTech21'),
-            'projectTech22' => request('projectTech22'),
-            'projectTech23' => request('projectTech23'),
-            'projectTech24' => request('projectTech24'),
-            'projectTech25' => request('projectTech25'),
-
 
             'sector' => request('sector'),
             'targetGroupSummary' => request('targetGroupSummary'),
@@ -262,30 +301,30 @@ class HomeController extends Controller
             'competitorDifference' => request('competitorDifference'),
             'businessModel2' => request('businessModel2'),
 
-
             'haveInvestment' => request('haveInvestment'),
             'havePatent' => request('havePatent'),
-            'wantAddress' => request('wantAddress'),
-            'lawApply' => request('lawApply'),
-        );
-        $mail = Mail::to($siteemail)->send(new \App\Mail\KurumDisiFormGonder($bilgiler));
-        if($mail) {
-            alert()
-                ->success('Gönderildi', 'En kısa zamanda tarafınıza ulaşılacaktır...')
-                ->autoClose(2000);
-            return back();
-        }else{
-            alert()
-                ->error('Hata', 'Email gonderilemedi...')
-                ->autoClose(2000);
-            return back();
 
-        }
+        );
+        Mail::to($siteemail)->send(new \App\Mail\KurumDisiFormGonder($bilgiler));
+        return redirect()->route('kurumdisi.form')->with('success', 'Formunuz Gönderildi, En Kısa Zamanda Tarafınıza Dönüş Yapılacak...');
+
 
     }
-    public function kurumiciformgonder(KurumiciformRequest $request){
+    public function kurumiciformgonder(Request $request){
 
+        $validator = Validator::make($request->all(), [
+            'name'=>'required',
+            'sicilno'=>'required',
+            'email'=>'required',
+            'phone'=>'required',
+            'mezun'=>'required',
+            'fkrad'=>'required',
+            'fkrozet'=>'required',
+        ]);
+        if (!$validator->passes()) {
 
+            return back()->withErrors($validator)->withInput();
+        }
         $ayarlar = Ayar::find(1);
         $siteadi = $ayarlar->site_adi;
         $siteemail = $ayarlar->email;
@@ -305,19 +344,9 @@ class HomeController extends Controller
 
 
         );
-        $mail = Mail::to($siteemail)->send(new \App\Mail\KurumIciFormGonder($bilgiler));
-        if($mail) {
-            alert()
-                ->success('Gönderildi', 'En kısa zamanda tarafınıza ulaşılacaktır...')
-                ->autoClose(2000);
-            return back();
-        }else{
-            alert()
-                ->error('Hata', 'Email gonderilemedi...')
-                ->autoClose(2000);
-            return back();
+        Mail::to($siteemail)->send(new \App\Mail\KurumIciFormGonder($bilgiler));
+        return redirect()->route('kurumici.form')->with('success', 'Formunuzu Gönderildi. En Kısa Zamanda Tarafınıza Ulaşılacaktır...');
 
-        }
 
     }
 

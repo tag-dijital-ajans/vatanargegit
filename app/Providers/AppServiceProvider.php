@@ -35,7 +35,7 @@ class AppServiceProvider extends ServiceProvider
         Schema::defaultStringLength(191);
         $ayar = Ayar::find(1);
         $anasayfaayar = AnasayfaAyar::find(1);
-        $menuler = Menu::where('menu_ust_id','=','0')->orderby('created_at','asc')->get();
+        $menuler = Menu::where('menu_ust_id','=','0')->orderby('sira_no','asc')->get();
         $footericerikler = Yazi::orderby('created_at','desc')->take(6)->get();
         $kurumlogolar = Kurum::orderby('sira','asc')->get();
 

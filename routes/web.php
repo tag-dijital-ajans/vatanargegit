@@ -48,7 +48,7 @@ Auth::routes(['register' => false]);
 
 Route::get('bakim','HomeController@bakim')->name('bakim.modu');
 
-Route::group(['middleware' => ['bakim_modu']], function () {
+
 
 
 //Anasayfa
@@ -66,13 +66,11 @@ Route::post('anasayfaform','HomeController@anasayfaformgonder')->name('anasayfaf
 Route::get('ekip','HomeController@ekip')->name('ekip.sayfasi');
 
 //Basvuru Formları
-Route::get('kurumdisiform','HomeController@kurumdisiform')->name('kurumdisi.form');
-Route::get('kurumiciform', 'HomeController@kurumiciform')->name('kurumici.form');
 
-    Route::get('kurumdisiform','HomeController@kurumdisiform')->name('kurumdisi.form');
-    Route::post('kurumdisiformgonder','HomeController@kurumdisiformgonder')->name('kurumdisiform.gonder');
-    Route::get('kurumiciform', 'HomeController@kurumiciform')->name('kurumici.form');
-    Route::post('kurumiciformgonder','HomeController@kurumiciformgonder')->name('kurumiciform.gonder');
+Route::get('kurumdisiform','HomeController@kurumdisiform')->name('kurumdisi.form');
+Route::post('kurumdisiformgonder','HomeController@kurumdisiformgonder')->name('kurumdisiform.gonder');
+Route::get('kurumiciform', 'HomeController@kurumiciform')->name('kurumici.form');
+Route::post('kurumiciformgonder','HomeController@kurumiciformgonder')->name('kurumiciform.gonder');
 
 //Hizmetler
 //Route::get('/hizmetler','HomeController@hizmetler')->name('hizmetleri.goster');
@@ -80,7 +78,7 @@ Route::get('/birimler','HomeController@hizmetler')->name('hizmetleri.goster');
 Route::get('/hizmet/{id}/{slug}','HomeController@hizmet');
 
 //Haberler (İcerikler)
-Route::get('/haberler','HomeController@haberler')->name('haberler.goster');
+Route::get('/duyurular','HomeController@haberler')->name('duyurular.goster');
 Route::get('/haber/{id}/{slug}','HomeController@haber');
 
-});
+

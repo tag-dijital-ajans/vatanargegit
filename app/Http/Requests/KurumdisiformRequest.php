@@ -25,7 +25,7 @@ class KurumdisiformRequest extends FormRequest
     {
         return [
 
-                /*'groupName'=>'required',
+                'groupName'=>'required',
                 'groupLabel'=>'required',
                 'groupAdress'=>'required',
                 'groupWebsite'=>'required',
@@ -74,7 +74,7 @@ class KurumdisiformRequest extends FormRequest
                 'haveInvestment'=>'required',
                 'havePatent'=>'required',
                 'lawApply'=>'required',
-                'wantAddress'=>'required',*/
+                'wantAddress'=>'required',
         ];
     }
 }

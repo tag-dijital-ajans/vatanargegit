@@ -108,7 +108,7 @@
     <div class="wrap-header-mobile">
         <!-- Logo moblie -->
         <div class="logo-mobile">
-            <a href="index.html"><img src="/{{$ayar->logo}}" alt="LOGO"></a>
+            <a href="/"><img src="/{{$ayar->logo}}" alt="LOGO"></a>
         </div>
 
 

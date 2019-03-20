@@ -88,11 +88,17 @@
     </section>--}}
 
 <!-- Video -->
+<div class="bg-0 p-t-100 p-b-40">
+
+        <div class="flex-wr-c-s">
 	<section class="bg-0 p-t-20 p-b-20">
 		<div class="container">
 
 			<div class="size-w-1 m-rl-auto">
-				<iframe width="600" height="315" src="https://www.youtube.com/embed/{{$anasayfaayar->anasayfavideo}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe width="600" height="315" float="left" src="https://www.youtube.com/embed/{{$anasayfaayar->anasayfavideo}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
 		</div>
 	</section>
+        </div>
+
+</div>

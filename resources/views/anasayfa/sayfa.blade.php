@@ -9,7 +9,7 @@
             </h2>
 
             <div class="flex-wr-c-c">
-                <a href="#" class="breadcrumb-item">
+                <a href="/" class="breadcrumb-item">
                     Anasayfa
                 </a>
 
@@ -38,8 +38,10 @@
                 </div>
 
                 <div class="col-sm-10 col-md-6 p-b-35">
-                    <img src="/{{$sayfa->sayfa_one_cikan_foto}}" width="600px">
+                    <img class="m-b-45 max-s-full" src="/{{$sayfa->sayfa_one_cikan_foto}}" width="600px">
                 </div>
+
+
             </div>
         </div>
     </section>

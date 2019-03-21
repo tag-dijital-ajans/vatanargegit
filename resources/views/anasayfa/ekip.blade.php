@@ -39,8 +39,11 @@
 				<div class="col-sm-6 col-md-5 col-lg-3 p-b-40">
 					<div>
 						<div class="wrap-pic-w pos-relative">
+							@if($ekip->fotograf)
 							<img src="/{{$ekip->fotograf}}" alt="IMG">
-
+							@else
+								<img src="/uploads/personicon.png" alt="IMG">
+								@endif
 
 							<div class="s-full ab-t-l flex-wr-c-c p-tb-30 hov-2">
 								<a href="{{$ekip->twitter}}" target="_blank" class="flex-c-c size-a-7 borad-50per bg-0 fs-16 cl-11 hov-btn3 m-all-5 hov-2-1">

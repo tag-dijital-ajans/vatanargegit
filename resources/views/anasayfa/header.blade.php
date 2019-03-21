@@ -59,7 +59,7 @@
         <div class="limiter-menu-desktop container">
             <!-- Logo desktop -->
             <div class="logo" >
-                <a href="/"><img  src="/{{$ayar->logo}}" alt="LOGO" ></a>
+                <a href="{{route('anasayfa')}}"><img  src="/{{$ayar->logo}}" alt="LOGO" ></a>
             </div>
 
             <!-- Menu desktop -->
@@ -127,7 +127,7 @@
 							<span class="fs-16 m-r-6">
 								<i class="fa fa-home" aria-hidden="true"></i>
 							</span>
-                    <span>379 5Th Ave New York, Nyc 10018</span>
+                    <span>{{$ayar->firma_adres}}</span>
                 </div>
             </li>
 
@@ -136,39 +136,32 @@
 							<span class="fs-16 m-r-6">
 								<i class="fa fa-phone" aria-hidden="true"></i>
 							</span>
-                    <span>(+1) 96 716 6879</span>
+                    <span>{{$ayar->telefon}}</span>
                 </div>
             </li>
 
-            <li>
-                <div class="t1-s-1 cl-5 p-tb-3">
-							<span class="fs-16 m-r-6">
-								<i class="fa fa-clock-o" aria-hidden="true"></i>
-							</span>
-                    <span>Mon-Sat 09:00 am - 17:00 pm/Sunday CLOSE</span>
-                </div>
-            </li>
+
 
             <li>
                 <div>
-                    <a href="#" class="fs-16 cl-5 hov-link2 trans-02 m-r-15">
+                    <a href="{{$ayar->facebook}}" class="fs-16 cl-5 hov-link2 trans-02 m-r-15">
                         <i class="fa fa-facebook-official"></i>
                     </a>
 
-                    <a href="#" class="fs-16 cl-5 hov-link2 trans-02 m-r-15">
+                    <a href="{{$ayar->twitter}}" class="fs-16 cl-5 hov-link2 trans-02 m-r-15">
                         <i class="fa fa-twitter"></i>
                     </a>
 
-                    <a href="#" class="fs-16 cl-5 hov-link2 trans-02 m-r-15">
-                        <i class="fa fa-google-plus"></i>
-                    </a>
-
-                    <a href="#" class="fs-16 cl-5 hov-link2 trans-02 m-r-15">
+                    <a href="{{$ayar->instagram}}" class="fs-16 cl-5 hov-link2 trans-02 m-r-15">
                         <i class="fa fa-instagram"></i>
                     </a>
 
-                    <a href="#" class="fs-16 cl-5 hov-link2 trans-02 m-r-15">
+                    <a href="{{$ayar->linkedin}}" class="fs-16 cl-5 hov-link2 trans-02 m-r-15">
                         <i class="fa fa-linkedin"></i>
+                    </a>
+
+                    <a href="{{$ayar->youtube}}" class="fs-16 cl-5 hov-link2 trans-02 m-r-15">
+                        <i class="fa fa-youtube"></i>
                     </a>
                 </div>
             </li>

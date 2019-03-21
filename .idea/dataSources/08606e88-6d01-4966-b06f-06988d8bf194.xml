@@ -1318,19 +1318,16 @@
     <column id="323" parent="265" name="gorev">
       <Position>3</Position>
       <DataType>varchar(191)|0s</DataType>
-      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="324" parent="265" name="fotograf">
       <Position>4</Position>
       <DataType>varchar(191)|0s</DataType>
-      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="325" parent="265" name="sira">
       <Position>5</Position>
       <DataType>int(11)|0s</DataType>
-      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="326" parent="265" name="created_at">

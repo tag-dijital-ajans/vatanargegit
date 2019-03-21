@@ -122,11 +122,11 @@
                                 </li>
                                 <li class="kit-list1 p-b-9">
                                     <a href="{{route('hizmetleri.goster')}}" class="t1-s-2 cl-13 hov-link2 trans-02">
-                                        Haberler</a>
+                                        Duyuru ve Etkinlikler</a>
                                 </li>
                                 <li class="kit-list1 p-b-9">
                                  <a href="{{route('hizmetleri.goster')}}" class="t1-s-2 cl-13 hov-link2 trans-02">
-                                    Hizmetler</a>
+                                    Birimler</a>
                                 </li>
                                 <li class="kit-list1 p-b-9">
                                                                  <a href="{{route('ekip.sayfasi')}}" class="t1-s-2 cl-13 hov-link2 trans-02">
@@ -165,7 +165,7 @@
 <section class="bg-0 p-t-20 p-b-20">
 
 
-        <div class="row justify-content-center">
+        <div class="row justify-content-center" id="footerkurumdesktop">
 
             @foreach ($kurumlogolar as $kurum)
             <div class="col-sm-4 col-lg-2 flex-c-c p-b-60">
@@ -173,9 +173,22 @@
                     <img class="trans-02 max-s-full" src="/{{$kurum->logo}}" width="200"  alt="{{$kurum->kurumadi}}">
                 </a>
             </div>
-@endforeach
+            @endforeach
 
         </div>
+    <div class="container txt-center p-tb-15" id="footerkurummobil">
+
+        <ul >
+        @foreach ($kurumlogolar as $kurum)
+        <li class="footerkurum">
+            <a href="{{$kurum->link}}" target="_blank">
+                <img class="trans-02 max-s-full" src="/{{$kurum->logo}}" width="75px"  alt="{{$kurum->kurumadi}}">
+            </a>
+        </li>
+        @endforeach
+        </ul>
+
+    </div>
 
 </section>
         <div class="bg-10">

@@ -593,7 +593,7 @@
 
                             <div class="row">
                                 <div class="input-field col s12">
-                                    <textarea   id="productSummary" name="productSummary" value="{{ old('productSummary') }}" class="materialize-textarea req-string validate" maxlength="2000" ></textarea>
+                                    <textarea   id="productSummary" name="productSummary"  class="materialize-textarea req-string validate" maxlength="2000" >{{ old('productSummary') }}</textarea>
                                     <label for="productSummary" class="avenirdemibold">Ana ürünlerinizi anlatınız</label>
                                 </div>
                             </div>
@@ -603,7 +603,7 @@
                             </div>
                             <div class="row">
                                 <div class="input-field col s12">
-                                    <textarea  id="projectTech" name="projectTech"value="{{ old('projectTech') }}" class="materialize-textarea req-string validate" maxlength="1000" ></textarea>
+                                    <textarea  id="projectTech" name="projectTech"value="{{ old('projectTech') }}" class="materialize-textarea req-string validate" maxlength="1000" >{{ old('productSummary') }}</textarea>
                                 </div>
                             </div>
 
@@ -1051,25 +1051,25 @@
                             </div>
 
                             <!-- form hack for alt sector -->
-                            <input  type="hidden" id="targetAltSector" name="targetAltSector" value="" class="req-string" rel="targetSectorChildren .active">
+                            <input  type="hidden" id="targetAltSector" name="targetAltSector" value="{{ old('targetAltSector') }}" class="req-string" rel="targetSectorChildren .active">
 
                             <div class="row">
                                 <div class="input-field col s12">
-                                    <textarea  id="competitorWebsites" name="competitorWebsites" value="{{ old('competitorWebsites') }}" class="materialize-textarea req-string validate" maxlength="1000" length="1000"></textarea>
+                                    <textarea  id="competitorWebsites" name="competitorWebsites"  class="materialize-textarea req-string validate" maxlength="1000" length="1000">{{ old('competitorWebsites') }}</textarea>
                                     <label for="competitorWebsites" class="avenirdemibold">Bu ihtiyacı gideren diğer ürün ve çözümler kimler tarafından yapılmaktadır Web adresleri ile belirtiniz.</label>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="input-field col s12">
-                                    <textarea  id="competitorDifference" name="competitorDifference" value="{{ old('competitorDifference') }}" class="materialize-textarea req-string validate" maxlength="1000" ></textarea>
+                                    <textarea  id="competitorDifference" name="competitorDifference" value="{{ old('competitorDifference') }}" class="materialize-textarea req-string validate" maxlength="1000" >{{old('competitorDifference') }}</textarea>
                                     <label for="competitorDifference" class="avenirdemibold">Bu rakiplerinizden nasıl ayrışıyorsunuz?</label>
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="input-field col s12">
-                                    <textarea  id="businessModel2" name="businessModel2"value="{{ old('businessModel2') }}" class="materialize-textarea req-string validate" maxlength="1000" ></textarea>
+                                    <textarea  id="businessModel2" name="businessModel2"  class="materialize-textarea req-string validate" maxlength="1000" >{{ old('businessModel2') }}</textarea>
                                     <label for="businessModel2" class="avenirdemibold">Ürününüzü nasıl fiyatlandırıyorsunuz?</label>
                                 </div>
                             </div>

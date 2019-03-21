@@ -4,141 +4,14 @@
     <list default="true" id="c80f5b64-614e-488b-8be3-066511dd2241" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/08606e88-6d01-4966-b06f-06988d8bf194.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/08606e88-6d01-4966-b06f-06988d8bf194.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AyarController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AyarController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/KurumdisiformRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/KurumdisiformRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/ava-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/ava-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/ava-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/ava-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/ava-cmt-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/ava-cmt-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/ava-cmt-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/bg-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/bg-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/bg-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/bg-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/gallery-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/gallery-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/gallery-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/gallery-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/gallery-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/gallery-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/landding-page-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/landding-page-02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/landding-page-03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/landding-page-04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/other-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/other-02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/other-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/product-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/product-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/product-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/product-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/product-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/product-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/product-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/product-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/product-09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/product-detail-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/project-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/project-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/project-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/project-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/project-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/project-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/project-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/project-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/project-09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/project-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/project-11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/project-detail-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/project-detail-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/services-detail-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/services-detail-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/services-detail-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/services-detail-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/services-detail-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/services-detail-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/services-detail-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/services-detail-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/team-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/team-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/team-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/team-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/team-05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/team-06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/team-07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/anasayfa/images/team-08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_avatr/avatar-1551287175.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_avatr/avatar-1551287238.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_fav/favicon-1551285262.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_fav/favicon-1551288281.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_hiz/hizmet_one_cikan_foto-1551285916.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_hiz/hizmet_one_cikan_foto-1551288557.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_hiz/hizmet_one_cikan_foto-1551288595.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_hiz/hizmet_one_cikan_foto-1551288617.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_hiz/hizmet_one_cikan_foto-1551288680.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_logo/logo-1551285006.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_logo/logo-1551285138.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_logo/logo-1551288261.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_logo/logo-1551356535.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_logo/logo-1551432477.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_logo/logo-1552804488.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_logo/logo-1552804523.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_logo/logo-1552804534.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_logo/logo-1552804553.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_refr/referans_gorseli-1551286531.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_refr/referans_gorseli-1551288732.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_refr/referans_gorseli-1551288748.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_refr/referans_gorseli-1551288771.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_refr/referans_gorseli-1551288787.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_refr/referans_gorseli-1551288834.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_refr/referans_gorseli-1552754490.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_refr/referans_gorseli-1552896130.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_sayfa/sayfa_one_cikan_foto-1551288350.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_sayfa/sayfa_one_cikan_foto-1551288372.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_sayfa/sayfa_one_cikan_foto-1551288408.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_slid/slider_resmi-1551286253.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_slid/slider_resmi-1551288498.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_slid/slider_resmi-1551361254.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_slid/slider_resmi-1551361454.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_yazi/1551286871.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_yazi/1551288889.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_yazi/1551288911.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_yazi/1551288934.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_yazi/1551288956.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/dosyalar/klas_yazi/1551439599.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/ekip/ekip-1552764093.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/ekip/ekip-1552764880.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/ekip/ekip-1552764924.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/ekip/ekip-1552897874.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/ekip/ekip-1552897971.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/kurum/kurumlogo-1552766074.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/kurum/kurumlogo-1552766094.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/kurum/kurumlogo-1552766471.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/kurum/kurumlogo-1552766500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/kurum/kurumlogo-1552893907.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/logo/footerlogo-1552804838.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/tr/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/tr/validation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/adminkurumsal/anasayfaayarlar/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/adminkurumsal/anasayfaayarlar/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/adminkurumsal/ayarlar/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/adminkurumsal/ayarlar/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/adminkurumsal/referanslar/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/adminkurumsal/referanslar/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/adminkurumsal/referanslar/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/adminkurumsal/referanslar/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/adminkurumsal/referanslar/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/adminkurumsal/referanslar/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/anasayfa/css/main_mavi.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/anasayfa/css/main_mavi.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/anasayfa/ekip.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/anasayfa/ekip.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/anasayfa/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/anasayfa/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/anasayfa/haber.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/anasayfa/haber.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/anasayfa/haberler.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/anasayfa/haberler.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/anasayfa/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/anasayfa/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/anasayfa/hizmetler.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/anasayfa/hizmetler.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/anasayfa/iletisim.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/anasayfa/iletisim.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/anasayfa/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/anasayfa/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/anasayfa/kurumdisiform.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/anasayfa/kurumdisiform.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/anasayfa/kurumiciform.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/anasayfa/kurumiciform.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/anasayfa/partners.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/anasayfa/partners.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/email/kurumdisiformgonder.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/email/kurumdisiformgonder.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -182,20 +55,6 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="vatanarge2: schema" type="c314c289:MysqlImplModel$Schema" />
         <item name="ayarlar: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="vatanarge2@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="vatanarge2: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="blog: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="vatanarge2@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="vatanarge2: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="hizmetler: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -264,42 +123,47 @@
     <session id="2085908928">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.13" value="3" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ayarlar" value="1" />
           <entry key="blog" value="1" />
-          <entry key="env" value="2" />
-          <entry key="php" value="73" />
+          <entry key="css" value="1" />
+          <entry key="env" value="3" />
+          <entry key="php" value="87" />
           <entry key="yazilar" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Blade" value="43" />
+          <entry key="Blade" value="50" />
+          <entry key="CSS" value="1" />
           <entry key="Database Element" value="3" />
-          <entry key="PHP" value="30" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="PHP" value="37" />
+          <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cell" value="9" />
+          <entry key="css" value="152" />
           <entry key="env" value="6" />
-          <entry key="php" value="1980" />
+          <entry key="php" value="2347" />
           <entry key="sql" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Blade" value="1018" />
-          <entry key="PHP" value="962" />
+          <entry key="Blade" value="1379" />
+          <entry key="CSS" value="152" />
+          <entry key="PHP" value="968" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="SQL" value="17" />
           <entry key="Scratch" value="9" />
@@ -310,34 +174,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/anasayfa/kurumdisiform.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="227" column="47" lean-forward="true" selection-start-line="227" selection-start-column="47" selection-end-line="227" selection-end-column="47" />
+            <state relative-caret-position="1380">
+              <caret line="69" column="127" selection-start-line="69" selection-start-column="115" selection-end-line="69" selection-end-column="127" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/anasayfa/kurumdisiform.blade.php">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="954">
-              <caret line="1048" column="42" lean-forward="true" selection-start-line="1048" selection-start-column="42" selection-end-line="1048" selection-end-column="42" />
-              <folding>
-                <element signature="e#79#631#0#HTML" />
-                <element signature="e#760#964#0#HTML" />
-                <element signature="e#1020#1118#0#HTML" />
-                <element signature="e#1179#1282#0#HTML" />
-              </folding>
+            <state relative-caret-position="2740">
+              <caret line="152" column="27" selection-start-line="152" selection-start-column="27" selection-end-line="152" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/anasayfa/footer.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3460">
+              <caret line="173" column="20" selection-start-line="173" selection-start-column="20" selection-end-line="173" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+        <entry file="file://$PROJECT_DIR$/public/anasayfa/css/main_mavi.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+            <state relative-caret-position="454">
+              <caret line="3194" column="1" selection-start-line="3194" selection-start-column="1" selection-end-line="3194" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -345,17 +212,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/anasayfa/header.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="88" selection-start-line="88" selection-end-line="88" />
+            <state relative-caret-position="3260">
+              <caret line="163" column="47" selection-start-line="163" selection-start-column="47" selection-end-line="163" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/anasayfa/haberler.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/anasayfa/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-760">
-              <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+            <state relative-caret-position="640">
+              <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -363,46 +230,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="70" column="43" lean-forward="true" selection-start-line="70" selection-start-column="43" selection-end-line="70" selection-end-column="43" />
+            <state relative-caret-position="760">
+              <caret line="48" column="63" selection-start-line="48" selection-start-column="63" selection-end-line="48" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/anasayfa/haber.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/anasayfa/ekip.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="820">
+              <caret line="41" column="48" lean-forward="true" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://08606e88-6d01-4966-b06f-06988d8bf194/schema/vatanarge2/table/blog">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://08606e88-6d01-4966-b06f-06988d8bf194/schema/vatanarge2/table/yazilar">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
+        <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+            <state relative-caret-position="500">
+              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/emails/iletisimformu.blade.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -424,6 +278,18 @@
       <find>class=&quot;validate req-min&quot;</find>
       <find>requ</find>
       <find>haber</find>
+      <find>yonetimkurumsal</find>
+      <find>email</find>
+      <find>share</find>
+      <find>foreign</find>
+      <find>biggest</find>
+      <find>targetSector</find>
+      <find>groupAddress</find>
+      <find>ekip</find>
+      <find>targetAltSector</find>
+      <find>hello@example.com</find>
+      <find>logo</find>
+      <find>@media</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;input required</replace>
@@ -431,6 +297,9 @@
       <replace>&lt;select required</replace>
       <replace>class=&quot;size-a-3 t1-m-2 plh-6 cl-6 p-rl-20 bo-1-rad-4 bcl-12 focus-in1&quot;</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\Murat\Documents\GitHub\laravel-collective\vatanargegit</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -469,16 +338,19 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/AyarController.php" />
         <option value="$PROJECT_DIR$/resources/views/anasayfa/iletisim.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/adminkurumsal/anasayfaayarlar/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/anasayfa/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/anasayfa/footer.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/anasayfa/haberler.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/anasayfa/header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/anasayfa/haber.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/email/kurumdisiformgonder.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/resources/views/anasayfa/kurumdisiform.blade.php" />
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" />
+        <option value="$PROJECT_DIR$/resources/views/anasayfa/kurumdisiform.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/resources/views/anasayfa/ekip.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/anasayfa/header.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/anasayfa/index.blade.php" />
+        <option value="$PROJECT_DIR$/public/anasayfa/css/main_mavi.css" />
+        <option value="$PROJECT_DIR$/resources/views/anasayfa/footer.blade.php" />
       </list>
     </option>
   </component>
@@ -589,7 +461,7 @@
       <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -600,7 +472,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -625,6 +496,13 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Http" type="462c0819:PsiDirectoryNode" />
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vatanargegit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vatanargegit" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Middleware" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vatanargegit" type="b2602c69:ProjectViewProjectNode" />
@@ -670,47 +548,20 @@
             <path>
               <item name="vatanargegit" type="b2602c69:ProjectViewProjectNode" />
               <item name="vatanargegit" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vatanargegit" type="b2602c69:ProjectViewProjectNode" />
               <item name="vatanargegit" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vatanargegit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vatanargegit" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-              <item name="en" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vatanargegit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vatanargegit" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-              <item name="tr" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vatanargegit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vatanargegit" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vatanargegit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vatanargegit" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="anasayfa" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vatanargegit" type="b2602c69:ProjectViewProjectNode" />
               <item name="vatanargegit" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="email" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="anasayfa" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vatanargegit" type="b2602c69:ProjectViewProjectNode" />
@@ -721,12 +572,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="F:/WEB-YAZILIM/LARAVEL/WEB-LARAVEL-PROJE/InsaatProje/insaatpro" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
@@ -757,20 +610,44 @@
       <workItem from="1552987863984" duration="10917000" />
       <workItem from="1553016805825" duration="9491000" />
       <workItem from="1553061871643" duration="9395000" />
+      <workItem from="1553077031205" duration="596000" />
+      <workItem from="1553079050470" duration="2615000" />
+      <workItem from="1553098891320" duration="9104000" />
+      <workItem from="1553151611390" duration="36000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34465000" />
+    <option name="totallyTimeSpent" value="46816000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1663113" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17324094" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" weight="0.329718" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32786885" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3464448" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16950959" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -783,11 +660,12 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286334" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" visible="true" weight="0.14552239" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -796,62 +674,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/anasayfa/ekip.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-600" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MenuController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2940">
-          <caret line="150" selection-start-line="150" selection-end-line="150" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/adminkurumsal/hizmetler/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/adminkurumsal/menuler/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HizmetController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="115" column="11" lean-forward="true" selection-start-line="115" selection-start-column="11" selection-end-line="115" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/anasayfa/hizmet.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="89" column="18" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/BakimModu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Mail/kurumdisiform.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/emails/kurumdisiform.blade.php" />
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Mail/kurumiciform.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/emails/kurumiciform.blade.php" />
     <entry file="file://$PROJECT_DIR$/app/Mail/iletisimformu.php">
@@ -874,9 +698,6 @@
           <caret line="38" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/emails/iletisimformu.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/adminkurumsal/referanslar/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -920,13 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/lang/en/validation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="101" column="17" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Requests/KurumdisiformRequest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1282">
@@ -938,9 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="14" column="5" selection-start-line="14" selection-start-column="1" selection-end-line="37" selection-end-column="14" />
-          <folding>
-            <element signature="e#1587#3106#0#Blade" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1013,30 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/anasayfa/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#572#877#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/anasayfa/footer.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#footer#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#footer#0;n#!!top" />
-            <element signature="e#6590#7340#0#Blade" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/anasayfa/iletisim.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -1044,17 +831,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/YonetimKurumsalController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+        <state relative-caret-position="-1130" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/email/kurumdisiformgonder.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="169" lean-forward="true" selection-start-line="169" selection-end-line="169" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/anasayfa/header.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        <state relative-caret-position="420">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/framework/views/05513f1773ed876e342352b48b2daa2e4b38ea4e.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/anasayfa/haberler.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -1079,56 +888,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/YonetimKurumsalController.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1130" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/anasayfa/haberler.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-760">
-          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        <state relative-caret-position="380">
+          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="70" column="43" lean-forward="true" selection-start-line="70" selection-start-column="43" selection-end-line="70" selection-end-column="43" />
+        <state relative-caret-position="480">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="227" column="47" lean-forward="true" selection-start-line="227" selection-start-column="47" selection-end-line="227" selection-end-column="47" />
+        <state relative-caret-position="620">
+          <caret line="31" column="130" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="130" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/email/kurumdisiformgonder.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/lang/en/auth.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lang/en/validation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="169" lean-forward="true" selection-start-line="169" selection-end-line="169" />
+        <state relative-caret-position="820">
+          <caret line="41" column="10" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/anasayfa/kurumdisiform.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="954">
-          <caret line="1048" column="42" lean-forward="true" selection-start-line="1048" selection-start-column="42" selection-end-line="1048" selection-end-column="42" />
-          <folding>
-            <element signature="e#79#631#0#HTML" />
-            <element signature="e#760#964#0#HTML" />
-            <element signature="e#1020#1118#0#HTML" />
-            <element signature="e#1179#1282#0#HTML" />
-          </folding>
+        <state relative-caret-position="1380">
+          <caret line="69" column="127" selection-start-line="69" selection-start-column="115" selection-end-line="69" selection-end-column="127" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        <state relative-caret-position="2740">
+          <caret line="152" column="27" selection-start-line="152" selection-start-column="27" selection-end-line="152" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/anasayfa/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3460">
+          <caret line="173" column="20" selection-start-line="173" selection-start-column="20" selection-end-line="173" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/anasayfa/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3260">
+          <caret line="163" column="47" selection-start-line="163" selection-start-column="47" selection-end-line="163" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/anasayfa/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="48" column="63" selection-start-line="48" selection-start-column="63" selection-end-line="48" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/anasayfa/ekip.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="820">
+          <caret line="41" column="48" lean-forward="true" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/emails/iletisimformu.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/anasayfa/css/main_mavi.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="3194" column="1" selection-start-line="3194" selection-start-column="1" selection-end-line="3194" selection-end-column="1" />
         </state>
       </provider>
     </entry>

@@ -152,7 +152,7 @@ class HomeController extends Controller
 
     public function ekip(){
 
-        $ekipler = Ekip::orderby('sira','desc')->get();
+        $ekipler = Ekip::orderby('sira','asc')->get();
 
         return view('anasayfa.ekip',compact('ekipler'));
     }
@@ -176,7 +176,7 @@ class HomeController extends Controller
         $validator = Validator::make($request->all(), [
             'groupName'=>'required',
             'groupLabel'=>'required',
-            'groupAdress'=>'required',
+            'groupAddress'=>'required',
             'groupCountry'=>'required',
             'foundedYear'=>'required',
             'foundationType'=>'required',
@@ -196,7 +196,7 @@ class HomeController extends Controller
             'lastInvoice'=>'required',
             'lastYearRevenue'=>'required',
             'needInvestment'=>'required',
-            'biggestForeignSharePerc'=>'required',
+            //'biggestForeignSharePerc'=>'required',
 
             'groupContactName'=>'required',
             'groupContactLastName'=>'required',
@@ -249,7 +249,7 @@ class HomeController extends Controller
 
             'groupName' => request('groupName'),
             'groupLabel' => request('groupLabel'),
-            'groupAdress' => request('groupAdress'),
+            'groupAddress' => request('groupAddress'),
             'groupWebsite' => request('groupWebsite'),
             'groupCountry' => request('groupCountry'),
             'foundedYear' => request('foundedYear'),
@@ -280,6 +280,7 @@ class HomeController extends Controller
             'competence8Count' => request('competence8Count'),
             'competence9Count' => request('competence9Count'),
             'competence10Count' => request('competence10Count'),
+            'targetAltSector' => request('targetAltSector'),
 
 
             'groupContactName' => request('groupContactName'),

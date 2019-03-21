@@ -26,19 +26,19 @@
             <div class="col-sm-10 col-md-8 col-lg-4 p-b-40">
                 <!-- Block1 -->
 
-                <input style="width: 300px; padding: 20px; cursor: pointer; box-shadow: 6px 6px 5px; #999;
+                <input style="width: 350px; padding: 20px; cursor: pointer; box-shadow: 6px 6px 5px; #999;
                 -webkit-box-shadow: 6px 6px 5px #999; -moz-box-shadow: 6px 6px 5px #999; font-weight: bold;
                 background: #ffffff; color: #000; border-radius: 10px; border: 1px solid #999; font-size: 150%; "
-                       type="button" value="Kurum İçi Başvuru" onclick="window.location.href='{{route('kurumici.form')}}'" />
+                       type="button" value="Kurum İçi Proje Başvurusu" onclick="window.location.href='{{route('kurumici.form')}}'" />
             </div>
 
             <div class="col-sm-10 col-md-8 col-lg-4 p-b-40">
 
                     <!-- Block1 -->
-                    <input style="width: 300px; padding: 20px; cursor: pointer; box-shadow: 6px 6px 5px; #999;
+                    <input style="width: 350px; padding: 20px; cursor: pointer; box-shadow: 6px 6px 5px; #999;
                 -webkit-box-shadow: 6px 6px 5px #999; -moz-box-shadow: 6px 6px 5px #999; font-weight: bold;
                 background: #ffffff; color: #000; border-radius: 10px; border: 1px solid #999; font-size: 150%;"
-                           type="button" value="Kurum Dışı Başvuru" onclick="window.location.href='{{route('kurumdisi.form')}}'" />
+                           type="button" value="Kurum Dışı Proje Başvurusu" onclick="window.location.href='{{route('kurumdisi.form')}}'" />
 
             </div>
 
